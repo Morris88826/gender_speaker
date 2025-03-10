@@ -18,9 +18,8 @@ wav2vec2.0 <a href="https://maelfabien.github.io/machinelearning/wav2vec/#b-the-
 2. Download the wav2vec2.0 base model (No Finetuning) from this <a href="https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md" target="_blank">repo</a>, use it as <a href="https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md#wav2vec" target="_blank">features extractor</a> to create features from audio signals. Apply the wav2vec model to the audio files you used in the previous tasks. We suggest you apply the model not on the entire file audio, but on 2 seconds subsequent chunks (though increasing the amount of samples).
 
 3. We ask you to do two types of analysis over a speaker classification task:
-    a. A quantitative analysis, using prediction models (starting from the features you just extracted). As before, use objective metrics (such as precision, recall and accuracy) to evaluate your results. Be careful when you split your dataset in train and test, it can be tricky.
-
-    b. A qualitative analysis, using algorithms of dimensionality reduction and clustering and visualizing the results.
+   * A quantitative analysis, using prediction models (starting from the features you just extracted). As before, use objective metrics (such as precision, recall and accuracy) to evaluate your results. Be careful when you split your dataset in train and test, it can be tricky.
+   * A qualitative analysis, using algorithms of dimensionality reduction and clustering and visualizing the results.
 
 ## Get Started
 Please run [preprocess.ipynb](./preprocess.ipynb) to generate the info.csv before running any task. 
