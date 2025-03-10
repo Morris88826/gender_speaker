@@ -21,3 +21,6 @@ wav2vec2.0 <a href="https://maelfabien.github.io/machinelearning/wav2vec/#b-the-
     a. A quantitative analysis, using prediction models (starting from the features you just extracted). As before, use objective metrics (such as precision, recall and accuracy) to evaluate your results. Be careful when you split your dataset in train and test, it can be tricky.
 
     b. A qualitative analysis, using algorithms of dimensionality reduction and clustering and visualizing the results.
+
+## Get Started
+Please run [preprocess.ipynb](./preprocess.ipynb) to generate the info.csv before running any task. 
