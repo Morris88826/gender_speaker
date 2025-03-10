@@ -1,6 +1,6 @@
 # Gender and Speaker Classification
 
-## Task 1: Gender Classification from audio files
+## Task 1: Gender Classification from audio files ([here](./task1.ipynb))
 1. Please find and download part of the LibriSpeech <a href="https://www.openslr.org/12/" target="_blank">here</a>. Find some time to read the
 documentation of the database. Download the dev-clean corpus, which is relatively small in size. This database contains directories with ids. Each id represents one speaker and contains audio files associated with that speaker. You will also find a file that indicates the gender of each speaker.
 
