@@ -11,7 +11,7 @@ understand the data you are working with (features distribution, outliers detect
 
 4. After the previous step, you can start playing with various Machine Learning Algorithms. We would like you to perform a gender classification task. For each audio file you create a gender label. Build train and test (unseen while training) sets. Be careful when you split your dataset in train and test. Train a classifier on the train set and predict the labels of the test set. Measure accuracy and report performance. Try to experiment with at least 4 classifiers. Use two of them as baselines (one naive and one more sophisticated), a neural network and a deep learning model, such as a CNN. Once again, feel free to use any libraries that are convenient for you.
 
-## Task 2: Speaker Classification from audio files
+## Task 2: Speaker Classification from audio files ([here](./task2.ipynb))
 1. Now that you have completed the first task, let’s try something new. Read the
 wav2vec2.0 <a href="https://maelfabien.github.io/machinelearning/wav2vec/#b-the-model" target="_blank">explanation</a> (if you are brave you can find and read the <a href="https://arxiv.org/pdf/2006.11477" target="_blank">paper</a>) and try to understand its basic and high-level concepts.
 
