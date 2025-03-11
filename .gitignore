@@ -1,3 +1,4 @@
 __pycache__
 LibriSpeech
 checkpoints/wav2vec_small.pt
+data/speaker_data.pkl
