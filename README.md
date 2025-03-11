@@ -23,3 +23,8 @@ wav2vec2.0 <a href="https://maelfabien.github.io/machinelearning/wav2vec/#b-the-
 
 ## Get Started
 Please run [preprocess.ipynb](./preprocess.ipynb) to generate the info.csv before running any task. 
+
+```
+conda create -n gender_speaker python=3.10 -y
+pip install -r requirements.txt
+```
