@@ -27,4 +27,4 @@ Install the environment
 conda create -n gender_speaker python=3.10 -y
 pip install -r requirements.txt
 ```
-Please run [preprocess.ipynb](./preprocess.ipynb) to generate the info.csv before running any task. 
+Please run [preprocess.ipynb](./preprocess.ipynb) to generate the info.csv before running any task. A more detailed information can be found in the [report](./report.pdf).
